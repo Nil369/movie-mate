@@ -1,0 +1,51 @@
+{
+  "cli": {
+    "version": ">= 16.23.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      // "android": {
+      //   "buildType": "apk"
+      // },
+      "env": {
+        "EXPO_PUBLIC_MOVIE_API_KEY": "$EXPO_PUBLIC_MOVIE_API_KEY",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "$EXPO_PUBLIC_APPWRITE_PROJECT_ID",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_NAME": "$EXPO_PUBLIC_APPWRITE_PROJECT_NAME",
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "$EXPO_PUBLIC_APPWRITE_ENDPOINT",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID": "$EXPO_PUBLIC_APPWRITE_DATABASE_ID",
+        "EXPO_PUBLIC_APPWRITE_COLLECTION_ID": "$EXPO_PUBLIC_APPWRITE_COLLECTION_ID"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_MOVIE_API_KEY": "$EXPO_PUBLIC_MOVIE_API_KEY",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "$EXPO_PUBLIC_APPWRITE_PROJECT_ID",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_NAME": "$EXPO_PUBLIC_APPWRITE_PROJECT_NAME",
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "$EXPO_PUBLIC_APPWRITE_ENDPOINT",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID": "$EXPO_PUBLIC_APPWRITE_DATABASE_ID",
+        "EXPO_PUBLIC_APPWRITE_COLLECTION_ID": "$EXPO_PUBLIC_APPWRITE_COLLECTION_ID"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_MOVIE_API_KEY": "$EXPO_PUBLIC_MOVIE_API_KEY",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "$EXPO_PUBLIC_APPWRITE_PROJECT_ID",
+        "EXPO_PUBLIC_APPWRITE_PROJECT_NAME": "$EXPO_PUBLIC_APPWRITE_PROJECT_NAME",
+        "EXPO_PUBLIC_APPWRITE_ENDPOINT": "$EXPO_PUBLIC_APPWRITE_ENDPOINT",
+        "EXPO_PUBLIC_APPWRITE_DATABASE_ID": "$EXPO_PUBLIC_APPWRITE_DATABASE_ID",
+        "EXPO_PUBLIC_APPWRITE_COLLECTION_ID": "$EXPO_PUBLIC_APPWRITE_COLLECTION_ID"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

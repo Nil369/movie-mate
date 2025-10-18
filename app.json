@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "movie-mate",
+    "slug": "movie-mate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/logo.png",
+    "scheme": "movies",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/icons/logo.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "in.akashhalder.moviemate"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/icons/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d92d22da-ddea-442a-ad2e-ad46fc0d14c7"
+      }
+    }
+  }
+}

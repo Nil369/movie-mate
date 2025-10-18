@@ -97,7 +97,7 @@ If you’d like to contribute:
 
 ## 🧑‍💻 Author
 
-**Your Name**
+**Akash Halder**
 🎓 B.Tech CSE (AI) | 💼 Full Stack Developer
 🔗 [LinkedIn](https://www.linkedin.com/in/akash-halder-nil/)
 
